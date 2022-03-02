@@ -1,2 +1,7 @@
+<<<<<<< HEAD
  0x00-shell_basics
  .
+=======
+#!/bin/bash
+0-current_working_directory
+>>>>>>> be83de5dd6441b5574645d4916e59a07f653cacd
