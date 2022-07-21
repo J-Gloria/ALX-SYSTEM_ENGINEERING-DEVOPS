@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# prints "Best School" ten times using until
+# ouput "Best School" for 10
 
-number=0
-until [ $number -eq 10 ]
+i=1
+
+until [ $i -gt 10 ]
 do
-   echo "Best School"
-   number=$(( number + 1 ))
+  echo "Best School"
+  ((i++))
 done
